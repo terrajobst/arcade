@@ -9,6 +9,7 @@
     -->
     <_SuppressSdkImports>false</_SuppressSdkImports>
     <_SuppressSdkImports Condition="'$(__ToolsetLocationOutputFile)' != ''">true</_SuppressSdkImports>
+
   </PropertyGroup>
 
   <Import Project="..\tools\Settings.props" Condition="!$(_SuppressSdkImports)" />
